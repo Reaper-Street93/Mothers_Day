@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Mother's Day, Veron 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating petals -->
+  <canvas id="petals"></canvas>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-sub">with all my love</p>
+      <h1>Happy Mother's Day</h1>
+      <h2 class="hero-name">Veron</h2>
+      <div class="scroll-hint">↓</div>
+    </div>
+  </section>
+
+  <!-- ── LETTER ── -->
+  <section class="section message-section">
+    <div class="container">
+      <div class="divider">✿ ✾ ✿</div>
+      <h3 class="section-title">A note from the heart</h3>
+      <div class="letter">
+        <p class="letter-salutation">Dear Mum,</p>
+        <p>From the moment I came into this world, you have been my guiding star — always warm, always there, always knowing exactly what I needed. You have a gift for turning ordinary moments into treasured memories, and a love so steady it has carried me through everything.</p>
+        <p>Thank you for your patience, your wisdom, and the warmth you bring to every room you walk into. Thank you for the late-night comfort, the early-morning encouragement, and every small act of kindness in between.</p>
+        <p>I am so incredibly proud and lucky to call you my Mum. On this day and every day, know that you are deeply, wholeheartedly loved.</p>
+        <p class="sign-off">With all my love, always 💕</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REASONS ── -->
+  <section class="section reasons-section">
+    <div class="container">
+      <div class="divider">✿ ✾ ✿</div>
+      <h3 class="section-title">Reasons I love you</h3>
+      <div class="reasons-grid">
+        <div class="reason-card">
+          <div class="reason-icon">🌸</div>
+          <h4>Your Warmth</h4>
+          <p>Your hugs have always been my favourite place in the world.</p>
+        </div>
+        <div class="reason-card">
+          <div class="reason-icon">⭐</div>
+          <h4>Your Strength</h4>
+          <p>You face every challenge with grace and inspire me to do the same.</p>
+        </div>
+        <div class="reason-card">
+          <div class="reason-icon">💛</div>
+          <h4>Your Wisdom</h4>
+          <p>Your advice has guided me more than you will ever know.</p>
+        </div>
+        <div class="reason-card">
+          <div class="reason-icon">🌺</div>
+          <h4>Your Love</h4>
+          <p>Unconditional, unwavering, and the greatest gift I've ever received.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section class="section gallery-section">
+    <div class="container">
+      <div class="divider">✿ ✾ ✿</div>
+      <h3 class="section-title">Our Memories</h3>
+      <div class="gallery-grid" id="gallery">
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/20141211_213140.jpg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/B918712BEF.jpg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0226.JPG" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0232.JPG" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0286.JPG" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0387.jpg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0389.jpg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0535.jpg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0539.jpg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0614.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_0935.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_2183.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_3123.JPG" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_4044.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_4090.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_4120.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="photos/IMG_4726.jpeg" alt="A treasured memory" />
+          <div class="gallery-overlay"><span>💕</span></div>
+        </div>
+      </div>
+      <p class="gallery-hint">Click any photo to view it larger</p>
+    </div>
+  </section>
+
+  <!-- ── LIGHTBOX ── -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img id="lightbox-img" src="" alt="Memory" />
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="divider">✿ ✾ ✿</div>
+    <p class="footer-text">Made with love for the most wonderful Mum in the world</p>
+    <p class="footer-heart">💕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
